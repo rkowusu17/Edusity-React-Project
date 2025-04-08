@@ -7,7 +7,7 @@ import About from "./components/About/About";
 import Campus from "./components/Campus/Campus";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/footer";
+import Footer from "./components/Footer/Footer";
 import VideoPlayer from "./components/Video Player/VideoPlayer";
 import { useState } from "react";
 
