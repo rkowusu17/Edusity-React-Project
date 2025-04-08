@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "./vidPlayer.css";
+import "./vidplayer.css";
 import video from "../../assets/college-video.mp4";
 import { useState } from "react";
 
