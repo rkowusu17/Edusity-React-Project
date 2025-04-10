@@ -24,30 +24,60 @@ const Navbar = () => {
       </Link>
       <ul className={mobileMenu ? " " : "hide-mobile-menu"}>
         <li>
-          <Link to="hero" smooth={true} offset={0} duration={500}>
+          <Link
+            to="hero"
+            smooth={true}
+            offset={0}
+            duration={500}
+            onClick={toggleMenu}
+          >
             Home{" "}
           </Link>
         </li>
         <li>
-          <Link to="programs" smooth={true} offset={-230} duration={500}>
+          <Link
+            to="programs"
+            smooth={true}
+            offset={-230}
+            duration={500}
+            onClick={toggleMenu}
+          >
             Program
           </Link>
         </li>
         <li>
           {" "}
-          <Link to="about" smooth={true} offset={-180} duration={500}>
+          <Link
+            to="about"
+            smooth={true}
+            offset={-180}
+            duration={500}
+            onClick={toggleMenu}
+          >
             About Us
           </Link>
         </li>
         <li>
           {" "}
-          <Link to="campus" smooth={true} offset={-230} duration={500}>
+          <Link
+            to="campus"
+            smooth={true}
+            offset={-230}
+            duration={500}
+            onClick={toggleMenu}
+          >
             Campus
           </Link>
         </li>
         <li>
           {" "}
-          <Link to="testimonials" smooth={true} offset={-230} duration={500}>
+          <Link
+            to="testimonials"
+            smooth={true}
+            offset={-230}
+            duration={500}
+            onClick={toggleMenu}
+          >
             Testimonials
           </Link>
         </li>
