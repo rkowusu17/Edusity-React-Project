@@ -60,9 +60,10 @@ nav {
     background-color: #212ea0db;
     z-index: -3;
     width: 200px;
+    height: 100dvh;
     padding-top: 70px;
     transition: all 0.5s;
-    bottom: 0;
+    /* bottom: 0; */
   }
   nav ul li {
     display: block;
@@ -75,6 +76,6 @@ nav {
     width: 30px;
   }
   .hide-mobile-menu {
-    right: -100%;
+    right: -120%;
   }
 }
